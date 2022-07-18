@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ujasia2/static/css/main.32f81bc4.css",
+    "main.js": "/ujasia2/static/js/main.98ed01ec.js",
+    "static/media/Background.mp4": "/ujasia2/static/media/Background.b9d0180e4805424ee037.mp4",
+    "static/media/quadcategory.jpeg": "/ujasia2/static/media/quadcategory.2fea2f48912394a29fb1.jpeg",
+    "static/media/keys.jpeg": "/ujasia2/static/media/keys.29e9305e2390255cf522.jpeg",
+    "static/media/quadBackground.jpeg": "/ujasia2/static/media/quadBackground.5eafe092673dfb7b92aa.jpeg",
+    "static/media/cross.jpeg": "/ujasia2/static/media/cross.2e458ad4e5432bd43b53.jpeg",
+    "static/media/hangar.webp": "/ujasia2/static/media/hangar.008a6ea7645c5c3ccbeb.webp",
+    "static/media/quadsondesert.webp": "/ujasia2/static/media/quadsondesert.8b67a139aae1aabd8dff.webp",
+    "static/media/helmet.webp": "/ujasia2/static/media/helmet.3246aef066fa584896b0.webp",
+    "static/media/linhai.webp": "/ujasia2/static/media/linhai.263becd68a59949ea252.webp",
+    "static/media/cfmoto.webp": "/ujasia2/static/media/cfmoto.445e3a4b38e171e9b8cf.webp",
+    "static/media/alfarad.webp": "/ujasia2/static/media/alfarad.482cc92de64e84f559ff.webp",
+    "static/media/tgb.webp": "/ujasia2/static/media/tgb.f20194c33c89140bf534.webp",
+    "static/media/kxd.webp": "/ujasia2/static/media/kxd.a485ce779dcbba7ef9a7.webp",
+    "static/media/segway.webp": "/ujasia2/static/media/segway.0ee0d377ff67295f095f.webp",
+    "index.html": "/ujasia2/index.html",
+    "main.32f81bc4.css.map": "/ujasia2/static/css/main.32f81bc4.css.map",
+    "main.98ed01ec.js.map": "/ujasia2/static/js/main.98ed01ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32f81bc4.css",
+    "static/js/main.98ed01ec.js"
+  ]
+}
