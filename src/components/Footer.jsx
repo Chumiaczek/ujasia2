@@ -7,7 +7,7 @@ const Container = styled.div`
     height: 30vh;
     color: white;
     @media screen and (max-width: 768px){
-        height: 50vh;
+        height: 60vh;
     }
 `
 const Wrapper = styled.div`

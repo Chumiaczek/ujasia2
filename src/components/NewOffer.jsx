@@ -39,14 +39,11 @@ const SlideBackground = styled.div`
     height: 700px;
     width: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 `
 const SlideWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 `
 const Title = styled.h1`
     
