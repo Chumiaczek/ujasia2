@@ -72,10 +72,10 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <CloseIcon onClick={toggle} />
             </Icon>
             <LogoWrapper>
-                <Link to="/"><Logo>Quady<LogoColor> Olecko</LogoColor></Logo></Link>
+                <Link to="/ujasia2"><Logo>Quady<LogoColor> Olecko</LogoColor></Logo></Link>
             </LogoWrapper>
             <MenuItems>
-                <MenuItem onClick={toggle}><Link to="/">Strona Główna</Link></MenuItem>
+                <MenuItem onClick={toggle}><Link to="/ujasia2">Strona Główna</Link></MenuItem>
                 <MenuItem onClick={toggle}><Link to="/offers">Oferta</Link></MenuItem>
                 <MenuItem onClick={toggle}>O Nas</MenuItem>
                 <MenuItem onClick={toggle}><Link to="/contact">Kontakt</Link></MenuItem>

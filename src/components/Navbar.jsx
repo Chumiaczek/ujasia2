@@ -84,10 +84,10 @@ const Navbar = ({ isOpen, toggle }) => {
     <Container>
       <Wrapper>
         <Left>
-          <Link to="/"><Logo>Quady<LogoColor> Olecko</LogoColor></Logo></Link>
+          <Link to="/ujasia2"><Logo>Quady<LogoColor> Olecko</LogoColor></Logo></Link>
         </Left>
         <Right>
-          <MenuItem><Link to="/">Strona Główna</Link></MenuItem>
+          <MenuItem><Link to="/ujasia2">Strona Główna</Link></MenuItem>
           <MenuItem><Link to="/offers">Oferta</Link></MenuItem>
           <MenuItem>O Nas</MenuItem>
           <MenuItem><Link to="/contact">Kontakt</Link></MenuItem>
