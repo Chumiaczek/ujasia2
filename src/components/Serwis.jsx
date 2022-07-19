@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import photo from '../assets/keys.jpeg'
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
     height: 70vh;
@@ -82,7 +83,7 @@ const Serwis = () => {
                         <TextTitle>SERWIS</TextTitle>
                         <hr width="100" color="yellowgreen" />
                         <TextDescription>Oferujemy kompleksową pomoc przy wszelakich naprawach bieżących, wymiany eksploatacyjne oraz montaż elementów i akcesoriów dodatkowych jak pługi czy wyciągarki, które również możecie u nas dostać! Zapewniamy terminowość i najwyższą jakość usług!</TextDescription>
-                        <Button>Kontakt</Button>
+                        <Link to="/contact"><Button>Kontakt</Button></Link>
                     </TextWrapper>
                 </TextContainer>
                 <PhotoContainer>

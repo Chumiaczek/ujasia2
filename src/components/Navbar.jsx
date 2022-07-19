@@ -1,5 +1,6 @@
 import { FaBars } from "react-icons/fa";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 60px;
@@ -83,19 +84,19 @@ const Navbar = ({ isOpen, toggle }) => {
     <Container>
       <Wrapper>
         <Left>
-          <Logo>Quady<LogoColor> Olecko</LogoColor></Logo>
+          <Link to="/"><Logo>Quady<LogoColor> Olecko</LogoColor></Logo></Link>
         </Left>
         <Right>
-          <MenuItem>Strona Główna</MenuItem>
-          <MenuItem>Oferta</MenuItem>
+          <MenuItem><Link to="/">Strona Główna</Link></MenuItem>
+          <MenuItem><Link to="/offers">Oferta</Link></MenuItem>
           <MenuItem>O Nas</MenuItem>
-          <MenuItem>Kontakt</MenuItem>
+          <MenuItem><Link to="/contact">Kontakt</Link></MenuItem>
         </Right>
         <Mobile>
           <FaBars fontSize="24px" cursor="pointer" z-index="999" onClick={toggle} />
         </Mobile>
       </Wrapper>
-    </Container>
+    </Container >
   );
 };
 

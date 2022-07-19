@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FaTimes } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Container = styled.aside`
     position: fixed;
@@ -71,13 +72,13 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <CloseIcon onClick={toggle} />
             </Icon>
             <LogoWrapper>
-                <Logo>Quady<LogoColor> Olecko</LogoColor></Logo>
+                <Link to="/"><Logo>Quady<LogoColor> Olecko</LogoColor></Logo></Link>
             </LogoWrapper>
             <MenuItems>
-                <MenuItem onClick={toggle}>Strona Główna</MenuItem>
-                <MenuItem onClick={toggle}>Oferta</MenuItem>
+                <MenuItem onClick={toggle}><Link to="/">Strona Główna</Link></MenuItem>
+                <MenuItem onClick={toggle}><Link to="/offers">Oferta</Link></MenuItem>
                 <MenuItem onClick={toggle}>O Nas</MenuItem>
-                <MenuItem onClick={toggle}>Kontakt</MenuItem>
+                <MenuItem onClick={toggle}><Link to="/contact">Kontakt</Link></MenuItem>
             </MenuItems>
         </Container>
     )

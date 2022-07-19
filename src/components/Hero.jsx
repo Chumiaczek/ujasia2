@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import background from '../assets/Background.mp4'
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
     height: 90vh;
@@ -67,7 +68,7 @@ const Hero = () => {
                 <Wrapper>
                     <Title>Quady<TitleColor> Olecko</TitleColor></Title>
                     <Description>Nasz sprzęt sprawdza się w najtrudniejszych warunkach</Description>
-                    <Button>Oferta</Button>
+                    <Button><Link to="/offers">Oferta</Link></Button>
                 </Wrapper>
             </Overlay>
         </Container>

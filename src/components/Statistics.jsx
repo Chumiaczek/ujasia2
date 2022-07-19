@@ -78,6 +78,7 @@ export default function Statistics() {
                         end={3}
                         duration={2}
                         delay={0}
+                        enableScrollSpy={true}
                     >
                         {({ countUpRef }) => (
                             <StatisticContainer>
@@ -93,7 +94,7 @@ export default function Statistics() {
                         end={10}
                         duration={2}
                         delay={0}
-                        enableScrollSpy
+                        enableScrollSpy={true}
                     >
                         {({ countUpRef }) => (
                             <StatisticContainer>
@@ -111,6 +112,7 @@ export default function Statistics() {
                         decimals={3}
                         decimal=","
                         delay={0}
+                        enableScrollSpy={true}
                     >
                         {({ countUpRef }) => (
                             <StatisticContainer>
