@@ -14,7 +14,7 @@ const Container = styled.div`
     background-attachment: fixed;
     color: white;
     @media screen and (max-width: 1250px){
-        height: 130vh;
+        height: 120vh;
     }
 `
 const Overlay = styled.div`
