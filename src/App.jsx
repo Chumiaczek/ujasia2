@@ -23,7 +23,7 @@ const App = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <AnimatePresence>
                 <Routes location={location} key={location.pathname}>
-                    <Route path="ujasia2" element={<Home />} />
+                    <Route path="" element={<Home />} />
                     <Route path="offers" element={<OfferCategories />} />
                     <Route path="contact" element={<Contact />} />
                     <Route path="productgroup/:category" element={<ProductGroups />} />

@@ -87,7 +87,7 @@ const Navbar = ({ isOpen, toggle }) => {
           <Link to="/ujasia2"><Logo>Quady<LogoColor> Olecko</LogoColor></Logo></Link>
         </Left>
         <Right>
-          <MenuItem><Link to="/ujasia2">Strona Główna</Link></MenuItem>
+          <MenuItem><Link to="/">Strona Główna</Link></MenuItem>
           <MenuItem><Link to="/offers">Oferta</Link></MenuItem>
           <MenuItem><Link to="/contact">Kontakt</Link></MenuItem>
         </Right>
