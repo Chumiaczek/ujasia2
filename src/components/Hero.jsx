@@ -15,6 +15,7 @@ const Overlay = styled.div`
     height: 90vh;
     background-color: #111111b7;
     position: absolute;
+    z-index: 1;
 `
 const Wrapper = styled.div`
     display: flex;
@@ -25,6 +26,7 @@ const Wrapper = styled.div`
     @media screen and (max-width: 768px){
         padding-top: 10vh;
     }
+    z-index: 2;
 `
 const Title = styled.h1`
     font-family: 'Russo One', sans-serif;

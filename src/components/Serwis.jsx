@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import photo from '../assets/keys.jpeg'
+import photo from '../assets/contactImg.jpg'
 import { Link } from 'react-router-dom'
 
 const Container = styled.div`
@@ -80,9 +80,9 @@ const Serwis = () => {
             <Wrapper>
                 <TextContainer>
                     <TextWrapper>
-                        <TextTitle>SERWIS</TextTitle>
+                        <TextTitle>Skontaktuj Się z Nami</TextTitle>
                         <hr width="100" color="yellowgreen" />
-                        <TextDescription>Oferujemy kompleksową pomoc przy wszelakich naprawach bieżących, wymiany eksploatacyjne oraz montaż elementów i akcesoriów dodatkowych jak pługi czy wyciągarki, które również możecie u nas dostać! Zapewniamy terminowość i najwyższą jakość usług!</TextDescription>
+                        <TextDescription>Oferujemy kompleksową pomoc przy wybieraniu sprzętu, jak i również potrzebne doświadczenie, aby poradzić w podjęciu tak ważnej decyzji jak zakup pojazdów typu ATV oraz Cross.</TextDescription>
                         <Link to="/contact"><Button>Kontakt</Button></Link>
                     </TextWrapper>
                 </TextContainer>
