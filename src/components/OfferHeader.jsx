@@ -9,6 +9,8 @@ const Container = styled.div`
     width: 100%;
     background-image: url(${background});
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 `
 const Overlay = styled.div`
     background-color: #111111d3;
@@ -39,7 +41,7 @@ const OfferHeader = () => {
     return (
         <Container>
             <Overlay>
-                <Wrapper data-aos="fade-up" data-aos-duration="2000">
+                <Wrapper>
                     <Title>OFERTA</Title>
                     <hr width="200" color="yellowgreen" />
                     <Description>Zobacz naszą ofertę!</Description>

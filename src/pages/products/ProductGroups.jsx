@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { AllProductsData } from '../../data';
 import { useParams, Link } from 'react-router-dom';
+import { motion } from 'framer-motion'
 
 const Container = styled.div`
     color: white;
@@ -64,7 +65,11 @@ const ProductGroups = () => {
     const { category } = useParams();
 
     return (
-        <div>
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 1 } }}
+            exit={{ opacity: 0 }}
+        >
             <Container>
                 <PageTitle>{category}</PageTitle>
                 <Wrapper>
@@ -74,13 +79,13 @@ const ProductGroups = () => {
                                 <Image src={filteredItem.img} />
                                 <Title>{filteredItem.title}</Title>
                                 <Price>{filteredItem.price} zł</Price>
-                                <Button><Link to={"/product/" + filteredItem.id}> Zobacz</ Link></Button>
+                                <Link to={"/product/" + filteredItem.id}><Button> Zobacz</Button></ Link>
                             </ProductWrapper>
                         </Products>
                     ))}
                 </Wrapper>
             </Container>
-        </div>
+        </motion.div>
     )
 }
 

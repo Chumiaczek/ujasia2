@@ -68,7 +68,7 @@ const Hero = () => {
                 <Wrapper>
                     <Title>Quady<TitleColor> Olecko</TitleColor></Title>
                     <Description>Nasz sprzęt sprawdza się w najtrudniejszych warunkach</Description>
-                    <Button><Link to="/offers">Oferta</Link></Button>
+                    <Link to="/offers"><Button>Oferta</Button></Link>
                 </Wrapper>
             </Overlay>
         </Container>
