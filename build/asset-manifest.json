@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/ujasia2/static/css/main.19337507.css",
-    "main.js": "/ujasia2/static/js/main.00d63cf2.js",
-    "static/media/Background.mp4": "/ujasia2/static/media/Background.b9d0180e4805424ee037.mp4",
-    "static/media/offerbackground.png": "/ujasia2/static/media/offerbackground.56a3dec7c8aae29600e5.png",
-    "static/media/contactbackground.webp": "/ujasia2/static/media/contactbackground.d221a9bb81d591bc2eca.webp",
-    "static/media/quadcategory.jpeg": "/ujasia2/static/media/quadcategory.2fea2f48912394a29fb1.jpeg",
-    "static/media/quadBackground.jpeg": "/ujasia2/static/media/quadBackground.5eafe092673dfb7b92aa.jpeg",
-    "static/media/contactImg.jpg": "/ujasia2/static/media/contactImg.6ed2acac4755e10fda23.jpg",
-    "static/media/cross.jpeg": "/ujasia2/static/media/cross.2e458ad4e5432bd43b53.jpeg",
-    "static/media/hangar.webp": "/ujasia2/static/media/hangar.008a6ea7645c5c3ccbeb.webp",
-    "static/media/quadsondesert.webp": "/ujasia2/static/media/quadsondesert.8b67a139aae1aabd8dff.webp",
-    "static/media/helmet.webp": "/ujasia2/static/media/helmet.3246aef066fa584896b0.webp",
-    "static/media/linhai.webp": "/ujasia2/static/media/linhai.263becd68a59949ea252.webp",
-    "static/media/cfmoto.webp": "/ujasia2/static/media/cfmoto.445e3a4b38e171e9b8cf.webp",
-    "static/media/alfarad.webp": "/ujasia2/static/media/alfarad.482cc92de64e84f559ff.webp",
-    "static/media/tgb.webp": "/ujasia2/static/media/tgb.f20194c33c89140bf534.webp",
-    "static/media/kxd.webp": "/ujasia2/static/media/kxd.a485ce779dcbba7ef9a7.webp",
-    "static/media/segway.webp": "/ujasia2/static/media/segway.0ee0d377ff67295f095f.webp",
-    "index.html": "/ujasia2/index.html",
-    "main.19337507.css.map": "/ujasia2/static/css/main.19337507.css.map",
-    "main.00d63cf2.js.map": "/ujasia2/static/js/main.00d63cf2.js.map"
+    "main.css": "./static/css/main.19337507.css",
+    "main.js": "./static/js/main.c94081d6.js",
+    "static/media/Background.mp4": "./static/media/Background.b9d0180e4805424ee037.mp4",
+    "static/media/offerbackground.png": "./static/media/offerbackground.56a3dec7c8aae29600e5.png",
+    "static/media/contactbackground.webp": "./static/media/contactbackground.d221a9bb81d591bc2eca.webp",
+    "static/media/quadcategory.jpeg": "./static/media/quadcategory.2fea2f48912394a29fb1.jpeg",
+    "static/media/quadBackground.jpeg": "./static/media/quadBackground.5eafe092673dfb7b92aa.jpeg",
+    "static/media/contactImg.jpg": "./static/media/contactImg.6ed2acac4755e10fda23.jpg",
+    "static/media/cross.jpeg": "./static/media/cross.2e458ad4e5432bd43b53.jpeg",
+    "static/media/hangar.webp": "./static/media/hangar.008a6ea7645c5c3ccbeb.webp",
+    "static/media/quadsondesert.webp": "./static/media/quadsondesert.8b67a139aae1aabd8dff.webp",
+    "static/media/helmet.webp": "./static/media/helmet.3246aef066fa584896b0.webp",
+    "static/media/linhai.webp": "./static/media/linhai.263becd68a59949ea252.webp",
+    "static/media/cfmoto.webp": "./static/media/cfmoto.445e3a4b38e171e9b8cf.webp",
+    "static/media/alfarad.webp": "./static/media/alfarad.482cc92de64e84f559ff.webp",
+    "static/media/tgb.webp": "./static/media/tgb.f20194c33c89140bf534.webp",
+    "static/media/kxd.webp": "./static/media/kxd.a485ce779dcbba7ef9a7.webp",
+    "static/media/segway.webp": "./static/media/segway.0ee0d377ff67295f095f.webp",
+    "index.html": "./index.html",
+    "main.19337507.css.map": "./static/css/main.19337507.css.map",
+    "main.c94081d6.js.map": "./static/js/main.c94081d6.js.map"
   },
   "entrypoints": [
     "static/css/main.19337507.css",
-    "static/js/main.00d63cf2.js"
+    "static/js/main.c94081d6.js"
   ]
 }
