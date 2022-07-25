@@ -70,8 +70,8 @@ const Footer = () => {
                 <Social>
                     <Title>Social media</Title>
                     <SocialWrapper>
-                        <Facebook style={{ fontSize: "40px" }} />
-                        <Instagram style={{ fontSize: "40px" }} className='igicon' />
+                        <a href="https://www.facebook.com/profile.php?id=100063685985085" target="_blank" rel="noreferrer"><Facebook style={{ fontSize: "50px", cursor: "pointer" }} /></a>
+                        <a href="https://www.instagram.com/quady_olecko/" target="_blank" rel="noreferrer"><Instagram style={{ fontSize: "50px", cursor: "pointer" }} /></a>
                     </SocialWrapper>
                 </Social>
             </Wrapper>

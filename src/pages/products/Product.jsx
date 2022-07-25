@@ -1,97 +1,75 @@
-import React, { useState } from 'react';
-import Copyright from '../../components/Copyright';
-import Footer from '../../components/Footer';
-import Navbar from '../../components/Navbar';
-import Sidebar from '../../components/Sidebar';
+import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { AllProductsData } from '../../data';
 import { useParams } from 'react-router-dom';
 
 const Container = styled.div`
-    color: white;
     width: 100%;
     background-color: #111;
-    padding-top: 40px;
-`
-const Wrapper = styled.div`
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    color: white;
     padding-top: 40px;
     padding-bottom: 40px;
 `
-const PageTitle = styled.h1`
-    font-size: 50px;
-    width: 100%;
-    text-align: center;
-`
-const Products = styled.div`
-    height: 500px;
-    width: 400px;
-    background-color: black;
-    margin-bottom: 40px;
-`
-const ProductWrapper = styled.div`
+const Wrapper = styled.div`
     display: flex;
-    flex-direction: column;
-    align-items: center;
-`
-const Title = styled.h1`
-    
-`
-const Price = styled.h2`
-    color: greenyellow;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
 `
 const Image = styled.img`
-    width: 70% !important;
+    width: 50% !important;
 `
-const Button = styled.button`
-    width: 150px;
-    height: 50px;
-    background: yellowgreen;
-    color: white;
-    border: none;
+const Title = styled.h1`
     font-size: 25px;
-    margin-top: 40px;
-    transition: 0.2s all ease-in-out;
-    &:hover{
-        background-color: #5d7c1f;
-        cursor: pointer;
-    }
+    color: yellowgreen;
+    font-size: 40px;
 `
-
+const RightWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
+const Products = styled.div`
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+`
+const Price = styled.h2`
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+`
+const Feature = styled.p`
+    font-size: 20px;
+`
 
 const Product = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => {
-        setIsOpen(!isOpen);
-    }
+    const { id } = useParams();
 
     return (
         <div>
-            <Navbar isOpen={isOpen} toggle={toggle} />
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-
             <Container>
-                <PageTitle>Quady ATV 50CC</PageTitle>
                 <Wrapper>
-                    <Products>
-                        <ProductWrapper>
-                            <Image />
-                            <Title></Title>
-                            <Price> zł</Price>
-                            <Button><Link>Sprawdź</Link></Button>
-                        </ProductWrapper>
-                    </Products>
+                    {AllProductsData.filter(item => item.id === id).map(filteredItem => (
+                        <Products>
+                            <Image src={filteredItem.img} />
+                            <RightWrapper>
+                                <Title>{filteredItem.title}</Title>
+                                <Price>{filteredItem.price} zł</Price>
+                                <Feature>Silnik: {filteredItem.engine}</Feature>
+                                <Feature>Moc: {filteredItem.moc}</Feature>
+                                <Feature>Rozruch: {filteredItem.rozruch}</Feature>
+                                <Feature>Skrzynia: {filteredItem.skrzynia}</Feature>
+                                <Feature>Koła: {filteredItem.kola}</Feature>
+                                <Feature>Hamulce: {filteredItem.hamulce}</Feature>
+                                <Feature>Wysokość siedziska: {filteredItem.wysokosc}mm</Feature>
+                                <Feature>Wymiary: {filteredItem.wymiary}</Feature>
+                            </RightWrapper>
+                        </Products>
+                    ))}
                 </Wrapper>
             </Container>
-
-
-            <Footer />
-            <Copyright />
         </div>
     )
 }

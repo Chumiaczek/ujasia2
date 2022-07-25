@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import Copyright from '../../components/Copyright';
-import Footer from '../../components/Footer';
-import Navbar from '../../components/Navbar';
-import Sidebar from '../../components/Sidebar';
+import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { AllProductsData } from '../../data';
+import { useParams, Link } from 'react-router-dom';
 
 const Container = styled.div`
     color: white;
@@ -27,7 +24,7 @@ const PageTitle = styled.h1`
     width: 100%;
     text-align: center;
 `
-const Product = styled.div`
+const Products = styled.div`
     height: 500px;
     width: 400px;
     background-color: black;
@@ -39,7 +36,8 @@ const ProductWrapper = styled.div`
     align-items: center;
 `
 const Title = styled.h1`
-    
+    text-align: center;
+    font-size: 25px;
 `
 const Price = styled.h2`
     color: greenyellow;
@@ -62,39 +60,28 @@ const Button = styled.button`
     }
 `
 
-
-const AllProducts = () => {
-
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => {
-        setIsOpen(!isOpen);
-    }
+const ProductGroups = () => {
+    const { category } = useParams();
 
     return (
         <div>
-            <Navbar isOpen={isOpen} toggle={toggle} />
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-
             <Container>
-                <PageTitle>Wszystkie Produkty</PageTitle>
+                <PageTitle>{category}</PageTitle>
                 <Wrapper>
-
-                    <Product>
-                        <ProductWrapper>
-                            <Image />
-                            <Title></Title>
-                            <Price> zł</Price>
-                            <Button><Link>Sprawdź</Link></Button>
-                        </ProductWrapper>
-                    </Product>
+                    {AllProductsData.filter(item => item.category === category).map(filteredItem => (
+                        <Products>
+                            <ProductWrapper>
+                                <Image src={filteredItem.img} />
+                                <Title>{filteredItem.title}</Title>
+                                <Price>{filteredItem.price} zł</Price>
+                                <Button><Link to={"/product/" + filteredItem.id}> Zobacz</ Link></Button>
+                            </ProductWrapper>
+                        </Products>
+                    ))}
                 </Wrapper>
             </Container>
-
-
-            <Footer />
-            <Copyright />
         </div>
     )
 }
 
-export default AllProducts
+export default ProductGroups
