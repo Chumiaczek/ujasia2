@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import background from '../assets/quadsondesert.webp'
-import quad from '../assets/quadcategory.jpeg'
-import cross from '../assets/cross.jpeg'
-import helmet from '../assets/helmet.webp'
+import background from '../assets/background/quadsondesert.webp'
+import quad from '../assets/categories/quadcategory.jpeg'
+import cross from '../assets/categories/cross.jpeg'
+import helmet from '../assets/categories/helmet.webp'
 
 const Container = styled.div`
     background-image: url(${background});

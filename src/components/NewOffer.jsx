@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import background from "../assets/hangar.webp"
+import background from "../assets/background/hangar.webp"
 import { NewItems } from '../data'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, Autoplay } from "swiper";

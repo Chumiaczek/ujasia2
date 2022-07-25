@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import background from '../assets/quadBackground.jpeg'
+import background from '../assets/background/quadBackground.jpeg'
 import CountUp from 'react-countup'
 
 const Container = styled.div`
@@ -58,24 +58,7 @@ export default function Statistics() {
                 <Wrapper>
                     <CountUp
                         start={0}
-                        end={25.000}
-                        duration={2}
-                        decimals={3}
-                        decimal=","
-                        delay={0}
-                        enableScrollSpy={true}
-                    >
-                        {({ countUpRef }) => (
-                            <StatisticContainer>
-                                <StatisticNumber ref={countUpRef}></StatisticNumber>
-                                <StatisticDescription>Zadowolonych Klientów</StatisticDescription>
-                                <hr width="100" color="yellowgreen" />
-                            </StatisticContainer>
-                        )}
-                    </CountUp>
-                    <CountUp
-                        start={0}
-                        end={3}
+                        end={8}
                         duration={2}
                         delay={0}
                         enableScrollSpy={true}
@@ -83,41 +66,7 @@ export default function Statistics() {
                         {({ countUpRef }) => (
                             <StatisticContainer>
                                 <StatisticNumber ref={countUpRef}></StatisticNumber>
-                                <StatisticDescription>Zespół</StatisticDescription>
-                                <hr width="100" color="yellowgreen" />
-                            </StatisticContainer>
-                        )}
-                    </CountUp>
-
-                    <CountUp
-                        start={0}
-                        end={10}
-                        duration={2}
-                        delay={0}
-                        enableScrollSpy={true}
-                    >
-                        {({ countUpRef }) => (
-                            <StatisticContainer>
-                                <StatisticNumber ref={countUpRef}></StatisticNumber>
-                                <StatisticDescription>Lat Doświadczenia</StatisticDescription>
-                                <hr width="100" color="yellowgreen" />
-                            </StatisticContainer>
-                        )}
-                    </CountUp>
-
-                    <CountUp
-                        start={0}
-                        end={22.000}
-                        duration={2}
-                        decimals={3}
-                        decimal=","
-                        delay={0}
-                        enableScrollSpy={true}
-                    >
-                        {({ countUpRef }) => (
-                            <StatisticContainer>
-                                <StatisticNumber ref={countUpRef}></StatisticNumber>
-                                <StatisticDescription>Sprzedanych Pojazdów</StatisticDescription>
+                                <StatisticDescription>Lat Na Rynku</StatisticDescription>
                                 <hr width="100" color="yellowgreen" />
                             </StatisticContainer>
                         )}

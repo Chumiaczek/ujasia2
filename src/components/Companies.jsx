@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import cfmoto from '../assets/cfmoto.webp'
-import alfarad from '../assets/alfarad.webp'
-import kxd from '../assets/kxd.webp'
-import linhai from '../assets/linhai.webp'
-import segway from '../assets/segway.webp'
-import tgb from '../assets/tgb.webp'
+import cfmoto from '../assets/companies/cfmoto.webp'
+import alfarad from '../assets/companies/alfarad.webp'
+import kxd from '../assets/companies/kxd.webp'
+import linhai from '../assets/companies/linhai.webp'
+import segway from '../assets/companies/segway.webp'
+import tgb from '../assets/companies/tgb.webp'
 
 const Container = styled.div`
     width: 100%;

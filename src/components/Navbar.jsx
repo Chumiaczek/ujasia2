@@ -89,7 +89,6 @@ const Navbar = ({ isOpen, toggle }) => {
         <Right>
           <MenuItem><Link to="/ujasia2">Strona Główna</Link></MenuItem>
           <MenuItem><Link to="/offers">Oferta</Link></MenuItem>
-          <MenuItem>O Nas</MenuItem>
           <MenuItem><Link to="/contact">Kontakt</Link></MenuItem>
         </Right>
         <Mobile>

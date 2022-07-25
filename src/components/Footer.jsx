@@ -1,4 +1,4 @@
-import { Email, Facebook, Instagram, Phone } from '@material-ui/icons'
+import { Email, Facebook, Instagram, Phone, PinDrop } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -64,8 +64,8 @@ const Footer = () => {
                 </Contact>
                 <Adres>
                     <Title>Adres</Title>
-                    <Description><Phone /> <Formatting>512 324 991</Formatting></Description>
-                    <Description><Email /> <Formatting>jasioodziez@gmail.com</Formatting></Description>
+                    <Description><PinDrop /> <Formatting>ul. Zamostowa 2</Formatting></Description>
+                    <Description><PinDrop /> <Formatting>19-400 Olecko</Formatting></Description>
                 </Adres>
                 <Social>
                     <Title>Social media</Title>

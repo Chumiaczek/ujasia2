@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
-import background from '../assets/offerbackground.png'
+import background from '../assets/background/offerbackground.png'
 import AOS from 'aos'
 import "aos/dist/aos.css";
 

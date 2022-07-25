@@ -77,7 +77,6 @@ const Sidebar = ({ isOpen, toggle }) => {
             <MenuItems>
                 <MenuItem onClick={toggle}><Link to="/ujasia2">Strona Główna</Link></MenuItem>
                 <MenuItem onClick={toggle}><Link to="/offers">Oferta</Link></MenuItem>
-                <MenuItem onClick={toggle}>O Nas</MenuItem>
                 <MenuItem onClick={toggle}><Link to="/contact">Kontakt</Link></MenuItem>
             </MenuItems>
         </Container>

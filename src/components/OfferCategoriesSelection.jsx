@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
     width: 100%;
@@ -48,21 +49,6 @@ const Links = styled.a`
         cursor: pointer;
     }
 `
-const Button = styled.button`
-    background-color: yellowgreen;
-    color: white;
-    width: 200px;
-    height: 50px;
-    font-size: 25px;
-    transition: 0.2s all ease-in-out;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    border: none;
-    &:hover{
-        background-color: #5d7c1f;
-        cursor: pointer;
-    }
-`
 
 
 const OfferCategories = () => {
@@ -73,13 +59,12 @@ const OfferCategories = () => {
                     <CategoryTitle>Quady</CategoryTitle>
                     <hr width="200px" color="yellowgreen" />
                     <LinkWrapper>
-                        <Links>ATV 50CC</Links>
-                        <Links>ATV 125-150CC</Links>
-                        <Links>ATV 200-299CC</Links>
-                        <Links>ATV 300-599CC</Links>
-                        <Links>ATV 600-1000CC</Links>
+                        <Links><Link to="/products">ATV 50CC</Link></Links>
+                        <Links><Link to="/products/ATV125CC">ATV 125-150CC</Link></Links>
+                        <Links><Link to="/products/ATV200CC">ATV 200-299CC</Link></Links>
+                        <Links><Link to="/products/ATV300CC">ATV 300-599CC</Link></Links>
+                        <Links><Link to="/products/ATV600CC">ATV 600-1000CC</Link></Links>
                     </LinkWrapper>
-                    <Button>Sprawdź</Button>
                 </CategoryContainer>
                 <CategoryContainer>
                     <CategoryTitle>Crossy</CategoryTitle>
@@ -88,20 +73,18 @@ const OfferCategories = () => {
                         <Links>POCKET BIKES</Links>
                         <Links>CROSS 50CC</Links>
                         <Links>CROSS 125CC</Links>
-                        <Links>CRISS 150-300CC</Links>
+                        <Links>CROSS 150-300CC</Links>
                     </LinkWrapper>
-                    <Button>Sprawdź</Button>
                 </CategoryContainer>
                 <CategoryContainer>
-                    <CategoryTitle>Quady</CategoryTitle>
+                    <CategoryTitle>Pojazdy elektryczne</CategoryTitle>
                     <hr width="200px" color="yellowgreen" />
                     <LinkWrapper>
                         <Links>ATV</Links>
                     </LinkWrapper>
-                    <Button>Sprawdź</Button>
                 </CategoryContainer>
                 <CategoryContainer>
-                    <CategoryTitle>Quady</CategoryTitle>
+                    <CategoryTitle>Kaski/Odzież</CategoryTitle>
                     <hr width="200px" color="yellowgreen" />
                     <LinkWrapper>
                         <Links>KASKI</Links>
@@ -111,7 +94,6 @@ const OfferCategories = () => {
                         <Links>KOSZULKI/BLUZY</Links>
                         <Links>BUTY</Links>
                     </LinkWrapper>
-                    <Button>Sprawdź</Button>
                 </CategoryContainer>
             </Wrapper>
         </Container>

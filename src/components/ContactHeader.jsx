@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
-import background from '../assets/contactbackground.webp'
+import background from '../assets/background/contactbackground.webp'
 import AOS from 'aos'
 import "aos/dist/aos.css";
 
