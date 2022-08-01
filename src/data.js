@@ -3,44 +3,44 @@ export const NewItems = [
         id: 1,
         img: "https://kxdmoto.pl/wp-content/uploads/2022/02/5004X4PROMAX-1024x1024.png",
         title: "CF MOTO 850",
-        price: "53900",
+        price: "0",
     },
     {
         id: 2,
         img: "https://kxdmoto.pl/wp-content/uploads/2022/02/5004X4PROMAX-1024x1024.png",
         title: "CF MOTO 850",
-        price: "53900",
+        price: "0",
     },
     {
         id: 3,
         img: "https://kxdmoto.pl/wp-content/uploads/2022/02/5004X4PROMAX-1024x1024.png",
         title: "CF MOTO 850",
-        price: "53900",
+        price: "0",
     },
     {
         id: 4,
         img: "https://kxdmoto.pl/wp-content/uploads/2022/02/5004X4PROMAX-1024x1024.png",
         title: "CF MOTO 850",
-        price: "53900",
+        price: "0",
     },
     {
         id: 5,
         img: "https://kxdmoto.pl/wp-content/uploads/2022/02/5004X4PROMAX-1024x1024.png",
         title: "CF MOTO 850",
-        price: "53900",
+        price: "0",
     },
     {
         id: 6,
         img: "https://kxdmoto.pl/wp-content/uploads/2022/02/5004X4PROMAX-1024x1024.png",
         title: "CF MOTO 850",
-        price: "53900",
+        price: "0",
     },
 ];
 
 export const AllProductsData = [
     {
         id: "1",
-        img: "https://mirageonly.pl/images/KXD-MINI-QUAD-M4-4.png",
+        img: "https://quadyolecko.pl/images/ATV50CC/KXD-MINI-QUAD-M4-4.png",
         title: "KXD MINI QUAD M4-4",
         price: "1699",
         category: "ATV50CC",
@@ -56,8 +56,8 @@ export const AllProductsData = [
     },
     {
         id: "2",
-        img: "https://mirageonly.pl/images/KXD-MINI-QUAD-M4-4.png",
-        title: "KXD MINI QUAD m6-4",
+        img: "https://quadyolecko.pl/images/ATV50CC/KXD-MINI-QUAD-M6-4.png",
+        title: "KXD MINI QUAD M6-4",
         price: "0",
         category: "ATV50CC",
         engine: "50CC",
@@ -72,7 +72,7 @@ export const AllProductsData = [
     },
     {
         id: "3",
-        img: "https://mirageonly.pl/images/KXD-MINI-QUAD-M4-4.png",
+        img: "https://quadyolecko.pl/images/ATV50CC/KXD-MINI-QUAD-M1.png",
         title: "KXD MINI QUAD M1-6",
         price: "2399",
         category: "ATV50CC",
@@ -88,7 +88,7 @@ export const AllProductsData = [
     },
     {
         id: "4",
-        img: "https://mirageonly.pl/images/KXD-MINI-QUAD-M4-4.png",
+        img: "https://quadyolecko.pl/images/ATV50CC/KXD-M1-E-Starter.png",
         title: "KXD MINI QUAD M1-6 E-Starter",
         price: "0",
         category: "ATV50CC",
@@ -104,7 +104,7 @@ export const AllProductsData = [
     },
     {
         id: "5",
-        img: "https://mirageonly.pl/images/KXD-MINI-QUAD-M4-4.png",
+        img: "https://quadyolecko.pl/images/ATV50CC/KXD-MINI-QUAD-M1.png",
         title: "KXD MINI QUAD M1-6 4T",
         price: "0",
         category: "ATV50CC",
@@ -120,7 +120,7 @@ export const AllProductsData = [
     },
     {
         id: "6",
-        img: "https://mirageonly.pl/images/KXD-MINI-QUAD-M4-4.png",
+        img: "https://quadyolecko.pl/images/ATV50CC/KXD-MINI-QUAD-M3.png",
         title: "KXD MINI QUAD M3-6 e-start",
         price: "2599",
         category: "ATV50CC",
@@ -136,7 +136,7 @@ export const AllProductsData = [
     },
     {
         id: "7",
-        img: "https://mirageonly.pl/images/KXD-MINI-QUAD-M4-4.png",
+        img: "https://quadyolecko.pl/images/ATV50CC/KXD-MINI-QUAD-M5.png",
         title: "KXD MINI QUAD M5-6",
         price: "1899",
         category: "ATV50CC",
@@ -152,7 +152,7 @@ export const AllProductsData = [
     },
     {
         id: "8",
-        img: "https://mirageonly.pl/images/KXD-MINI-QUAD-M4-4.png",
+        img: "https://quadyolecko.pl/images/ATV50CC/KXD-MINI-QUAD-M7.png",
         title: "KXD MINI QUAD M7-6 e-start",
         price: "0",
         category: "ATV50CC",
@@ -168,7 +168,7 @@ export const AllProductsData = [
     },
     {
         id: "9",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-001-6.png",
         title: "KXD QUAD 001-6 Big foot",
         price: "3399",
         category: "ATV125CC",
@@ -184,7 +184,7 @@ export const AllProductsData = [
     },
     {
         id: "10",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-001-7-Bigfoot.png",
         title: "KXD QUAD 001-7 Big foot",
         price: "3799",
         category: "ATV125CC",
@@ -200,7 +200,7 @@ export const AllProductsData = [
     },
     {
         id: "11",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-004-7.png",
         title: "KXD QUAD 004-7 Carbon",
         price: "4399",
         category: "ATV125CC",
@@ -216,7 +216,7 @@ export const AllProductsData = [
     },
     {
         id: "12",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-004-7-Pro.png",
         title: "KXD QUAD 004-7 Carbon Pro",
         price: "0",
         category: "ATV125CC",
@@ -232,7 +232,7 @@ export const AllProductsData = [
     },
     {
         id: "13",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-006-7.png",
         title: "KXD QUAD 006-7 Phyton",
         price: "4299",
         category: "ATV125CC",
@@ -248,7 +248,7 @@ export const AllProductsData = [
     },
     {
         id: "14",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-006S-7-PRO.png",
         title: "KXD QUAD 006-7 Phyton Pro",
         price: "0",
         category: "ATV125CC",
@@ -264,7 +264,7 @@ export const AllProductsData = [
     },
     {
         id: "15",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/kxd-commander.png",
         title: "KXD COMMANDER",
         price: "5599",
         category: "ATV125CC",
@@ -280,7 +280,7 @@ export const AllProductsData = [
     },
     {
         id: "16",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-004-8.png",
         title: "KXD QUAD 004-8 Carbon",
         price: "4499",
         category: "ATV125CC",
@@ -296,7 +296,7 @@ export const AllProductsData = [
     },
     {
         id: "17",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-004-8-PRO.png",
         title: "KXD QUAD 004-8 Carbon Pro",
         price: "0",
         category: "ATV125CC",
@@ -312,7 +312,7 @@ export const AllProductsData = [
     },
     {
         id: "18",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-006-8.png",
         title: "KXD QUAD 006-8 Phyton",
         price: "4599",
         category: "ATV125CC",
@@ -328,7 +328,7 @@ export const AllProductsData = [
     },
     {
         id: "19",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-006S-8-PRO.png",
         title: "KXD QUAD 006-8 Phyton Pro",
         price: "4699",
         category: "ATV125CC",
@@ -344,7 +344,7 @@ export const AllProductsData = [
     },
     {
         id: "20",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-006-8-MARS.png",
         title: "KXD QUAD 006-8 Mars",
         price: "5299",
         category: "ATV125CC",
@@ -360,7 +360,7 @@ export const AllProductsData = [
     },
     {
         id: "21",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-008-8.png",
         title: "KXD QUAD 008-8 Varia",
         price: "0",
         category: "ATV125CC",
@@ -376,7 +376,7 @@ export const AllProductsData = [
     },
     {
         id: "22",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-008S-8-PRO.png",
         title: "KXD QUAD 008-8 Varia Pro",
         price: "0",
         category: "ATV125CC",
@@ -392,7 +392,7 @@ export const AllProductsData = [
     },
     {
         id: "23",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-008S-Pro-Lemon.png",
         title: "KXD QUAD 008-8 Pro Lemon",
         price: "5299",
         category: "ATV125CC",
@@ -408,7 +408,7 @@ export const AllProductsData = [
     },
     {
         id: "24",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/KXD-QUAD-006-8-LED.png",
         title: "KXD QUAD 006-8 Pyton full LED",
         price: "5299",
         category: "ATV125CC",
@@ -424,7 +424,7 @@ export const AllProductsData = [
     },
     {
         id: "25",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/MAD-MAX.png",
         title: "BERETTA MAD MAX 150",
         price: "7399",
         category: "ATV125CC",
@@ -440,7 +440,7 @@ export const AllProductsData = [
     },
     {
         id: "26",
-        img: "https://mirageonly.pl/images/KXD-QUAD-001-62.png",
+        img: "https://quadyolecko.pl/images/ATV125CC/LINHAI-M150-2x4-1.png",
         title: "LINHAI M150 2x4",
         price: "12490",
         category: "ATV125CC",
@@ -456,7 +456,7 @@ export const AllProductsData = [
     },
     {
         id: "27",
-        img: "https://mirageonly.pl/images/KXD-010-10-Discovery.png",
+        img: "https://quadyolecko.pl/images/ATV200CC/KXD-010-10-Discovery.png",
         title: "KXD 010-10 Discovery",
         price: "8999",
         category: "ATV200CC",
@@ -472,7 +472,7 @@ export const AllProductsData = [
     },
     {
         id: "28",
-        img: "https://mirageonly.pl/images/KXD-010-10-Discovery.png",
+        img: "https://quadyolecko.pl/images/ATV200CC/KXD-010-10.png",
         title: "KXD 010-10",
         price: "0",
         category: "ATV200CC",
@@ -488,7 +488,7 @@ export const AllProductsData = [
     },
     {
         id: "29",
-        img: "https://mirageonly.pl/images/KXD-010-10-Discovery.png",
+        img: "https://quadyolecko.pl/images/ATV200CC/Linhai-300-4x4-SR.png",
         title: "LINHAI 300 4x4 SR",
         price: "21990",
         category: "ATV200CC",
@@ -504,7 +504,7 @@ export const AllProductsData = [
     },
     {
         id: "30",
-        img: "https://mirageonly.pl/images/KXD-010-10-Discovery.png",
+        img: "https://quadyolecko.pl/images/ATV200CC/ALFARAD-350.png",
         title: "ALFARAD 350 EXPLORER",
         price: "22699",
         category: "ATV200CC",
@@ -520,7 +520,7 @@ export const AllProductsData = [
     },
     {
         id: "31",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/Linhai-500-4x4-AR-1.png",
         title: "LINHAI 500 4x4 AR",
         price: "27990",
         category: "ATV300CC",
@@ -536,7 +536,7 @@ export const AllProductsData = [
     },
     {
         id: "32",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/Linhai-500-4x4-Promax.png",
         title: "LINHAI 500 4x4 Promax",
         price: "28990",
         category: "ATV300CC",
@@ -552,7 +552,7 @@ export const AllProductsData = [
     },
     {
         id: "33",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/Linhai-M565L-EFI-EPS-4x4-1.png",
         title: "LINHAI M565L EFI EPS 4x4",
         price: "33990",
         category: "ATV300CC",
@@ -568,7 +568,7 @@ export const AllProductsData = [
     },
     {
         id: "34",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/Linhai-M550L-EFi-4x4-AR-Euro-4.png",
         title: "LINHAI M550L EFI 4x4 AR Euro 4",
         price: "0",
         category: "ATV300CC",
@@ -584,7 +584,7 @@ export const AllProductsData = [
     },
     {
         id: "35",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/CF-MOTO-520.png",
         title: "CF MOTO 520",
         price: "34500",
         category: "ATV300CC",
@@ -599,8 +599,24 @@ export const AllProductsData = [
         avail: "true",
     },
     {
+        id: "90",
+        img: "https://quadyolecko.pl/images/ATV300CC/CF-MOTO-625.png",
+        title: "CF MOTO 625",
+        price: "46900",
+        category: "ATV300CC",
+        engine: "300CC",
+        moc: "4KM",
+        rozruch: "manualny",
+        skrzynia: "automatyczna",
+        kola: "4 cale",
+        hamulce: "tarczowe",
+        wysokosc: "470",
+        wymiary: "dł 1000mm, szer 650mm, wys 650mm",
+        avail: "true",
+    },
+    {
         id: "36",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/SEGWAY-AT6-S.png",
         title: "Segway Snarler AT6 S",
         price: "34990",
         category: "ATV300CC",
@@ -616,7 +632,7 @@ export const AllProductsData = [
     },
     {
         id: "37",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/SEGWAY-AT6-L-Limited.png",
         title: "Segway Snarler AT6 L Limited EPS",
         price: "44990",
         category: "ATV300CC",
@@ -632,7 +648,7 @@ export const AllProductsData = [
     },
     {
         id: "38",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/TGB-TARGET-600-EPS-4x4-E4.png",
         title: "TGB TARGET 600 EPS 4x4 - E4",
         price: "43250",
         category: "ATV300CC",
@@ -648,7 +664,7 @@ export const AllProductsData = [
     },
     {
         id: "39",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/TGB-BLADE-600i-LT-4x4-T3.png",
         title: "TGB BLADE 600i LT 4x4 - T3",
         price: "39990",
         category: "ATV300CC",
@@ -664,7 +680,7 @@ export const AllProductsData = [
     },
     {
         id: "40",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/TGB-BLADE-600i-LTX-EPS-4x4-T3.png",
         title: "TGB BLADE 600i LTX 4x4 - E4",
         price: "0",
         category: "ATV300CC",
@@ -680,7 +696,7 @@ export const AllProductsData = [
     },
     {
         id: "41",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/TGB-BLADE-600i-LTX-EPS-4x4-T3.png",
         title: "TGB BLADE 600i LTX 4x4 - T3",
         price: "42990",
         category: "ATV300CC",
@@ -696,7 +712,7 @@ export const AllProductsData = [
     },
     {
         id: "41",
-        img: "https://mirageonly.pl/images/Linhai-500-4x4-AR-1.png",
+        img: "https://quadyolecko.pl/images/ATV300CC/TGB-BLADE-600i-LTX-EPS-4x4-T3.png",
         title: "TGB BLADE 600i LTX EPS 4x4 - T3",
         price: "44990",
         category: "ATV300CC",
@@ -712,7 +728,7 @@ export const AllProductsData = [
     },
     {
         id: "42",
-        img: "https://mirageonly.pl/images/RM-800.png",
+        img: "https://quadyolecko.pl/images/ATV600CC/RM-800.png",
         title: "RM 800 DUO EPS",
         price: "46999",
         category: "ATV600CC",
@@ -728,9 +744,9 @@ export const AllProductsData = [
     },
     {
         id: "43",
-        img: "https://mirageonly.pl/images/RM-800.png",
+        img: "https://quadyolecko.pl/images/ATV600CC/CF-MOTO-850.png",
         title: "CF MOTO 850",
-        price: "53900",
+        price: "0",
         category: "ATV600CC",
         engine: "600CC",
         moc: "4KM",
@@ -744,7 +760,7 @@ export const AllProductsData = [
     },
     {
         id: "44",
-        img: "https://mirageonly.pl/images/RM-800.png",
+        img: "https://quadyolecko.pl/images/ATV600CC/TGB-BLADE-1000i-LTX.png",
         title: 'TGB BLADE 1000i LTX EPS 14" - T3',
         price: "59990",
         category: "ATV600CC",
@@ -760,7 +776,7 @@ export const AllProductsData = [
     },
     {
         id: "45",
-        img: "https://mirageonly.pl/images/RM-800.png",
+        img: "https://quadyolecko.pl/images/ATV600CC/TGB-BLADE-1000i-LTX.png",
         title: 'TGB BLADE 1000i LTX EPS 14" - E4',
         price: "0",
         category: "ATV600CC",
@@ -776,7 +792,7 @@ export const AllProductsData = [
     },
     {
         id: "46",
-        img: "https://mirageonly.pl/images/RM-800.png",
+        img: "https://quadyolecko.pl/images/ATV600CC/TGB-BLADE-1000i-LT.png",
         title: 'TGB BLADE 1000i LT EPS 14" - T3',
         price: "50990",
         category: "ATV600CC",
@@ -792,7 +808,7 @@ export const AllProductsData = [
     },
     {
         id: "47",
-        img: "https://mirageonly.pl/images/RM-800.png",
+        img: "https://quadyolecko.pl/images/ATV600CC/CF-MOTO-1000.png",
         title: 'CF MOTO 1000',
         price: "63900",
         category: "ATV600CC",
@@ -808,7 +824,7 @@ export const AllProductsData = [
     },
     {
         id: "48",
-        img: "https://mirageonly.pl/images/KXD-PB-008SX-2T.png",
+        img: "https://quadyolecko.pl/images/POCKET/KXD-PB-008SX-2T.png",
         title: 'KXD PB 008SX 2T',
         price: "0",
         category: "POCKETBIKES",
@@ -824,7 +840,7 @@ export const AllProductsData = [
     },
     {
         id: "49",
-        img: "https://mirageonly.pl/images/KXD-PB-008SX-2T.png",
+        img: "https://quadyolecko.pl/images/POCKET/KXD-PB-008-Flamme.png",
         title: 'KXD PB 008 Flamme',
         price: "0",
         category: "POCKETBIKES",
@@ -840,7 +856,7 @@ export const AllProductsData = [
     },
     {
         id: "50",
-        img: "https://mirageonly.pl/images/KXD-PB-008SX-2T.png",
+        img: "https://quadyolecko.pl/images/POCKET/KXD-PB-008-Speed.png",
         title: 'KXD PB 008 Speed',
         price: "0",
         category: "POCKETBIKES",
@@ -856,7 +872,7 @@ export const AllProductsData = [
     },
     {
         id: "51",
-        img: "https://mirageonly.pl/images/KXD-PB-008SX-2T.png",
+        img: "https://quadyolecko.pl/images/POCKET/KXD-PB-008AS.png",
         title: 'KXD PB 008AS',
         price: "0",
         category: "POCKETBIKES",
@@ -872,7 +888,7 @@ export const AllProductsData = [
     },
     {
         id: "52",
-        img: "https://mirageonly.pl/images/KXD-PB-008SX-2T.png",
+        img: "https://quadyolecko.pl/images/POCKET/KXD-PB-008SX-4T.png",
         title: 'KXD PB 008SX 4T',
         price: "0",
         category: "POCKETBIKES",
@@ -888,7 +904,7 @@ export const AllProductsData = [
     },
     {
         id: "53",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-505.png",
         title: 'KXD CROSS DB 505',
         price: "1299",
         category: "CROSS50CC",
@@ -904,7 +920,7 @@ export const AllProductsData = [
     },
     {
         id: "54",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-701A.png",
         title: 'KXD CROSS DB 701A',
         price: "1450",
         category: "CROSS50CC",
@@ -920,7 +936,7 @@ export const AllProductsData = [
     },
     {
         id: "55",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-702A.png",
         title: 'KXD CROSS DB 702A',
         price: "1499",
         category: "CROSS50CC",
@@ -936,7 +952,7 @@ export const AllProductsData = [
     },
     {
         id: "56",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-703A.png",
         title: 'KXD CROSS DB 703A',
         price: "0",
         category: "CROSS50CC",
@@ -952,7 +968,7 @@ export const AllProductsData = [
     },
     {
         id: "57",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-706A.png",
         title: 'KXD CROSS DB 706A',
         price: "1550",
         category: "CROSS50CC",
@@ -968,7 +984,7 @@ export const AllProductsData = [
     },
     {
         id: "58",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-706A1.png",
         title: 'KXD CROSS DB 706A1',
         price: "0",
         category: "CROSS50CC",
@@ -984,7 +1000,7 @@ export const AllProductsData = [
     },
     {
         id: "59",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-706B-4T.png",
         title: 'KXD CROSS DB 706B 4T',
         price: "0",
         category: "CROSS50CC",
@@ -1000,7 +1016,7 @@ export const AllProductsData = [
     },
     {
         id: "60",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-707A.png",
         title: 'KXD CROSS DB 707A',
         price: "0",
         category: "CROSS50CC",
@@ -1016,7 +1032,7 @@ export const AllProductsData = [
     },
     {
         id: "61",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-707B-4T.png",
         title: 'KXD CROSS DB 707B 4T',
         price: "3599",
         category: "CROSS50CC",
@@ -1032,7 +1048,7 @@ export const AllProductsData = [
     },
     {
         id: "62",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-707K.png",
         title: 'KXD CROSS DB 707K',
         price: "0",
         category: "CROSS50CC",
@@ -1048,7 +1064,7 @@ export const AllProductsData = [
     },
     {
         id: "63",
-        img: "https://mirageonly.pl/images/KXD-CROSS-DB-505.png",
+        img: "https://quadyolecko.pl/images/CROSS50CC/KXD-CROSS-DB-708A.png",
         title: 'KXD CROSS DB 708AE',
         price: "1799",
         category: "CROSS50CC",
@@ -1064,7 +1080,7 @@ export const AllProductsData = [
     },
     {
         id: "64",
-        img: "https://mirageonly.pl/images/alfarad-k3.png",
+        img: "https://quadyolecko.pl/images/CROSS125CC/alfarad-k3.png",
         title: 'ALFARAD K3 125',
         price: "4699",
         category: "CROSS125CC",
@@ -1080,7 +1096,7 @@ export const AllProductsData = [
     },
     {
         id: "65",
-        img: "https://mirageonly.pl/images/alfarad-k3.png",
+        img: "https://quadyolecko.pl/images/CROSS125CC/KXD-CROSS-DB-607A.png",
         title: 'KXD CROSS DB 607A',
         price: "3400",
         category: "CROSS125CC",
@@ -1096,7 +1112,7 @@ export const AllProductsData = [
     },
     {
         id: "66",
-        img: "https://mirageonly.pl/images/alfarad-k3.png",
+        img: "https://quadyolecko.pl/images/CROSS125CC/KXD-CROSS-DB-607.png",
         title: 'KXD CROSS DB 607M',
         price: "3299",
         category: "CROSS125CC",
@@ -1112,7 +1128,7 @@ export const AllProductsData = [
     },
     {
         id: "67",
-        img: "https://mirageonly.pl/images/alfarad-k3.png",
+        img: "https://quadyolecko.pl/images/CROSS125CC/KXD-CROSS-DB-607.png",
         title: 'KXD CROSS DB 607',
         price: "3499",
         category: "CROSS125CC",
@@ -1128,7 +1144,7 @@ export const AllProductsData = [
     },
     {
         id: "68",
-        img: "https://mirageonly.pl/images/alfarad-k3.png",
+        img: "https://quadyolecko.pl/images/CROSS125CC/KXD-CROSS-DB-608.png",
         title: 'KXD CROSS DB 608',
         price: "3899",
         category: "CROSS125CC",
@@ -1144,7 +1160,7 @@ export const AllProductsData = [
     },
     {
         id: "69",
-        img: "https://mirageonly.pl/images/alfarad-k3.png",
+        img: "https://quadyolecko.pl/images/CROSS125CC/KXD-PRO-609.png",
         title: 'KXD CROSS DB 609 PRO',
         price: "4299",
         category: "CROSS125CC",
@@ -1160,7 +1176,7 @@ export const AllProductsData = [
     },
     {
         id: "70",
-        img: "https://mirageonly.pl/images/alfarad-k3.png",
+        img: "https://quadyolecko.pl/images/CROSS125CC/KXD-CROSS-DB-612-PRO.png",
         title: 'KXD CROSS DB 612 PRO',
         price: "4299",
         category: "CROSS125CC",
@@ -1176,7 +1192,7 @@ export const AllProductsData = [
     },
     {
         id: "71",
-        img: "https://mirageonly.pl/images/Alfarad-R6.png",
+        img: "https://quadyolecko.pl/images/CROSS150CC/Alfarad-R6.png",
         title: 'ALFARAD 250 R6',
         price: "8999",
         category: "CROSS150CC",
@@ -1192,7 +1208,7 @@ export const AllProductsData = [
     },
     {
         id: "72",
-        img: "https://mirageonly.pl/images/Alfarad-R6.png",
+        img: "https://quadyolecko.pl/images/CROSS150CC/Alfarad-A7.png",
         title: 'ALFARAD 250 A7',
         price: "8999",
         category: "CROSS150CC",
@@ -1208,7 +1224,7 @@ export const AllProductsData = [
     },
     {
         id: "73",
-        img: "https://mirageonly.pl/images/Alfarad-R6.png",
+        img: "https://quadyolecko.pl/images/CROSS150CC/Alfarad-X7.png",
         title: 'ALFARAD 250 X7',
         price: "13999",
         category: "CROSS150CC",
@@ -1224,7 +1240,7 @@ export const AllProductsData = [
     },
     {
         id: "74",
-        img: "https://mirageonly.pl/images/Alfarad-R6.png",
+        img: "https://quadyolecko.pl/images/CROSS150CC/Alfarad-A8.png",
         title: 'ALFARAD 300 A8',
         price: "11499",
         category: "CROSS150CC",
@@ -1240,7 +1256,7 @@ export const AllProductsData = [
     },
     {
         id: "75",
-        img: "https://mirageonly.pl/images/Alfarad-R6.png",
+        img: "https://quadyolecko.pl/images/CROSS150CC/Alfarad-X8.png",
         title: 'ALFARAD 300 X8',
         price: "22999",
         category: "CROSS150CC",
@@ -1256,7 +1272,7 @@ export const AllProductsData = [
     },
     {
         id: "76",
-        img: "https://mirageonly.pl/images/KXD-006E-8-Hummer.png",
+        img: "https://quadyolecko.pl/images/ATV/KXD-006E-8.png",
         title: 'KXD 006E-7 Hummer',
         price: "0",
         category: "ATV",
@@ -1272,7 +1288,7 @@ export const AllProductsData = [
     },
     {
         id: "77",
-        img: "https://mirageonly.pl/images/KXD-006E-8-Hummer.png",
+        img: "https://quadyolecko.pl/images/ATV/KXD-006E-8.png",
         title: 'KXD 006E-8 Hummer',
         price: "0",
         category: "ATV",
@@ -1288,7 +1304,7 @@ export const AllProductsData = [
     },
     {
         id: "78",
-        img: "https://mirageonly.pl/images/KXD-006E-8-Hummer.png",
+        img: "https://quadyolecko.pl/images/ATV/Linhai-electric.png",
         title: 'LINHAI ELECTRIC 2x4',
         price: "0",
         category: "ATV",
@@ -1304,7 +1320,7 @@ export const AllProductsData = [
     },
     {
         id: "79",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KXD-PRO.png",
         title: 'KXD PRO',
         price: "0",
         category: "UBRANIA",
@@ -1320,7 +1336,7 @@ export const AllProductsData = [
     },
     {
         id: "80",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KASK-FUN.png",
         title: 'KXD FUN',
         price: "0",
         category: "UBRANIA",
@@ -1336,7 +1352,7 @@ export const AllProductsData = [
     },
     {
         id: "81",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KASK-HELM-DP908.png",
         title: 'KASK HELM DP908',
         price: "0",
         category: "UBRANIA",
@@ -1352,7 +1368,7 @@ export const AllProductsData = [
     },
     {
         id: "82",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KASK-HELM-DP911.png",
         title: 'KASK HELM DP911',
         price: "0",
         category: "UBRANIA",
@@ -1368,7 +1384,7 @@ export const AllProductsData = [
     },
     {
         id: "83",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KXD-kurtka.png",
         title: 'KXD Cross Jacket',
         price: "0",
         category: "UBRANIA",
@@ -1384,7 +1400,7 @@ export const AllProductsData = [
     },
     {
         id: "84",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KXD-rekawice.png",
         title: 'KXD Rękawice',
         price: "0",
         category: "UBRANIA",
@@ -1400,7 +1416,7 @@ export const AllProductsData = [
     },
     {
         id: "85",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KXD-BUZZER.png",
         title: 'KXD BUZER',
         price: "0",
         category: "UBRANIA",
@@ -1416,7 +1432,7 @@ export const AllProductsData = [
     },
     {
         id: "86",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KXD-buty.png",
         title: 'KXD Buty Motocyklowe',
         price: "0",
         category: "UBRANIA",
@@ -1432,7 +1448,7 @@ export const AllProductsData = [
     },
     {
         id: "87",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KXD-koszulka-czarna.png",
         title: 'KXD Motocross T-Shirt',
         price: "0",
         category: "UBRANIA",
@@ -1448,7 +1464,7 @@ export const AllProductsData = [
     },
     {
         id: "88",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KXD-spodnie.png",
         title: 'KXD Spodnie',
         price: "0",
         category: "UBRANIA",
@@ -1464,7 +1480,7 @@ export const AllProductsData = [
     },
     {
         id: "89",
-        img: "https://mirageonly.pl/images/KXD-kurtka.png",
+        img: "https://quadyolecko.pl/images/UBRANIA/KXD-PRO-ALFARAD-HOODIE.png",
         title: 'KXD PRO-ALFARAD HOODIE',
         price: "0",
         category: "UBRANIA",
